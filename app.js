@@ -4,9 +4,9 @@ import userRouter from "./routes/user.routes.js";
 import authRouter from "./routes/auth.routes.js";
 import subscriptionRouter from "./routes/subscription.routes.js";
 import connectToDatabase from "./database/mongodb.js";
-import errorMiddleware from "./controllers/middlewares/error.middleware.js";
+import errorMiddleware from "./middlewares/error.middleware.js";
 import cookieParser from "cookie-parser";
-import arcjetMiddleware from "./controllers/middlewares/arcjet.middleware.js";
+import arcjetMiddleware from "./middlewares/arcjet.middleware.js";
 
 const app = express();
 
